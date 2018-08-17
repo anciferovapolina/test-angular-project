@@ -10,10 +10,10 @@ import { HeroService } from '../hero.service';
 
 export class HeroesComponent implements OnInit {
   heroes: Hero[];
-  selectedHero: Hero;
+  /*selectedHero: Hero;
   onSelect(hero: Hero): void {
     this.selectedHero = hero;
-  }
+  } no need anymore*/
   constructor (private heroService: HeroService) {}
   getHeroes(): void {
     this.heroService.getHeroes().subscribe(heroes => this.heroes = heroes);
