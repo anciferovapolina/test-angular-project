@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MessageService } from '../messages.service';
+import { MessageService } from '../message.service';
 
 
 @Component({
